@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F985F8D58596676DC5A063F /* libPods-PictureBrowser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B124D52B9A557C21C3BCC6 /* libPods-PictureBrowser.a */; };
 		CC6D3A9C1E49715B0013B3A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6D3A9B1E49715B0013B3A7 /* main.m */; };
 		CC6D3A9F1E49715B0013B3A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6D3A9E1E49715B0013B3A7 /* AppDelegate.m */; };
 		CC6D3AA21E49715B0013B3A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6D3AA11E49715B0013B3A7 /* ViewController.m */; };
@@ -17,9 +18,24 @@
 		CC6D3AB61E49ADC30013B3A7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6D3AB51E49ADC30013B3A7 /* SecondViewController.m */; };
 		CCB2E4E11E7B9A73005674CE /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB2E4E01E7B9A73005674CE /* ThirdViewController.m */; };
 		CCB2E4E41E7BC68B005674CE /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB2E4E31E7BC68B005674CE /* FourViewController.m */; };
+		CCB2E4F41E8B9B34005674CE /* PictureBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB2E4F31E8B9B34005674CE /* PictureBrowserViewController.m */; };
+		CCB2E5031E8BAB21005674CE /* STConst.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB2E4FE1E8BAB21005674CE /* STConst.m */; };
+		CCB2E5041E8BAB21005674CE /* STUI.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB2E5001E8BAB21005674CE /* STUI.m */; };
+		CCB2E5051E8BAB21005674CE /* UIView+ST.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB2E5021E8BAB21005674CE /* UIView+ST.m */; };
+		CCB2E50E1E8BAB32005674CE /* STAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB2E5071E8BAB32005674CE /* STAlertView.m */; };
+		CCB2E50F1E8BAB32005674CE /* STIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB2E5091E8BAB32005674CE /* STIndicatorView.m */; };
+		CCB2E5101E8BAB32005674CE /* STPhotoBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB2E50B1E8BAB32005674CE /* STPhotoBrowserController.m */; };
+		CCB2E5111E8BAB32005674CE /* STPhotoBrowserView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB2E50D1E8BAB32005674CE /* STPhotoBrowserView.m */; };
+		CCB2E52B1E8BB8CE005674CE /* SDWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB2E5241E8BB8CE005674CE /* SDWaitingView.m */; };
+		CCB2E52C1E8BB8CE005674CE /* SDPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB2E5271E8BB8CE005674CE /* SDPhotoBrowser.m */; };
+		CCB2E52D1E8BB8CE005674CE /* SDBrowserImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB2E5291E8BB8CE005674CE /* SDBrowserImageView.m */; };
+		CCB2E5331E8D276E005674CE /* NYTPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB2E5321E8D276E005674CE /* NYTPhotoModel.m */; };
+		CCB2E5381E8E37AE005674CE /* PYBrowserDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB2E5371E8E37AE005674CE /* PYBrowserDemoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		78B124D52B9A557C21C3BCC6 /* libPods-PictureBrowser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PictureBrowser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A619C21272BE0425121E1050 /* Pods-PictureBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictureBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-PictureBrowser/Pods-PictureBrowser.release.xcconfig"; sourceTree = "<group>"; };
 		CC6D3A971E49715B0013B3A7 /* PictureBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PictureBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC6D3A9B1E49715B0013B3A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CC6D3A9D1E49715B0013B3A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -38,6 +54,36 @@
 		CCB2E4E01E7B9A73005674CE /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		CCB2E4E21E7BC68B005674CE /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
 		CCB2E4E31E7BC68B005674CE /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		CCB2E4F21E8B9B34005674CE /* PictureBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureBrowserViewController.h; sourceTree = "<group>"; };
+		CCB2E4F31E8B9B34005674CE /* PictureBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureBrowserViewController.m; sourceTree = "<group>"; };
+		CCB2E4FC1E8BAB21005674CE /* STConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STConfig.h; path = STPhotoBrowser/STPhotoBrowserConfig/STConfig.h; sourceTree = "<group>"; };
+		CCB2E4FD1E8BAB21005674CE /* STConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STConst.h; path = STPhotoBrowser/STPhotoBrowserConfig/STConst.h; sourceTree = "<group>"; };
+		CCB2E4FE1E8BAB21005674CE /* STConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STConst.m; path = STPhotoBrowser/STPhotoBrowserConfig/STConst.m; sourceTree = "<group>"; };
+		CCB2E4FF1E8BAB21005674CE /* STUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STUI.h; path = STPhotoBrowser/STPhotoBrowserConfig/STUI.h; sourceTree = "<group>"; };
+		CCB2E5001E8BAB21005674CE /* STUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STUI.m; path = STPhotoBrowser/STPhotoBrowserConfig/STUI.m; sourceTree = "<group>"; };
+		CCB2E5011E8BAB21005674CE /* UIView+ST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+ST.h"; path = "STPhotoBrowser/STPhotoBrowserConfig/UIView+ST.h"; sourceTree = "<group>"; };
+		CCB2E5021E8BAB21005674CE /* UIView+ST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+ST.m"; path = "STPhotoBrowser/STPhotoBrowserConfig/UIView+ST.m"; sourceTree = "<group>"; };
+		CCB2E5061E8BAB32005674CE /* STAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STAlertView.h; path = STPhotoBrowser/STPhotoBrowserView/STAlertView.h; sourceTree = "<group>"; };
+		CCB2E5071E8BAB32005674CE /* STAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STAlertView.m; path = STPhotoBrowser/STPhotoBrowserView/STAlertView.m; sourceTree = "<group>"; };
+		CCB2E5081E8BAB32005674CE /* STIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STIndicatorView.h; path = STPhotoBrowser/STPhotoBrowserView/STIndicatorView.h; sourceTree = "<group>"; };
+		CCB2E5091E8BAB32005674CE /* STIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STIndicatorView.m; path = STPhotoBrowser/STPhotoBrowserView/STIndicatorView.m; sourceTree = "<group>"; };
+		CCB2E50A1E8BAB32005674CE /* STPhotoBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STPhotoBrowserController.h; path = STPhotoBrowser/STPhotoBrowserView/STPhotoBrowserController.h; sourceTree = "<group>"; };
+		CCB2E50B1E8BAB32005674CE /* STPhotoBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STPhotoBrowserController.m; path = STPhotoBrowser/STPhotoBrowserView/STPhotoBrowserController.m; sourceTree = "<group>"; };
+		CCB2E50C1E8BAB32005674CE /* STPhotoBrowserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STPhotoBrowserView.h; path = STPhotoBrowser/STPhotoBrowserView/STPhotoBrowserView.h; sourceTree = "<group>"; };
+		CCB2E50D1E8BAB32005674CE /* STPhotoBrowserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STPhotoBrowserView.m; path = STPhotoBrowser/STPhotoBrowserView/STPhotoBrowserView.m; sourceTree = "<group>"; };
+		CCB2E5221E8BAEFC005674CE /* STConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STConst.h; path = STPhotoBrowser/STPhotoBrowserConfig/STConst.h; sourceTree = "<group>"; };
+		CCB2E5241E8BB8CE005674CE /* SDWaitingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDWaitingView.m; path = SDPhotoBrowser/SDWaitingView.m; sourceTree = "<group>"; };
+		CCB2E5251E8BB8CE005674CE /* SDWaitingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDWaitingView.h; path = SDPhotoBrowser/SDWaitingView.h; sourceTree = "<group>"; };
+		CCB2E5261E8BB8CE005674CE /* SDPhotoBrowserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDPhotoBrowserConfig.h; path = SDPhotoBrowser/SDPhotoBrowserConfig.h; sourceTree = "<group>"; };
+		CCB2E5271E8BB8CE005674CE /* SDPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDPhotoBrowser.m; path = SDPhotoBrowser/SDPhotoBrowser.m; sourceTree = "<group>"; };
+		CCB2E5281E8BB8CE005674CE /* SDPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDPhotoBrowser.h; path = SDPhotoBrowser/SDPhotoBrowser.h; sourceTree = "<group>"; };
+		CCB2E5291E8BB8CE005674CE /* SDBrowserImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDBrowserImageView.m; path = SDPhotoBrowser/SDBrowserImageView.m; sourceTree = "<group>"; };
+		CCB2E52A1E8BB8CE005674CE /* SDBrowserImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDBrowserImageView.h; path = SDPhotoBrowser/SDBrowserImageView.h; sourceTree = "<group>"; };
+		CCB2E5311E8D276E005674CE /* NYTPhotoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYTPhotoModel.h; sourceTree = "<group>"; };
+		CCB2E5321E8D276E005674CE /* NYTPhotoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYTPhotoModel.m; sourceTree = "<group>"; };
+		CCB2E5361E8E37AE005674CE /* PYBrowserDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYBrowserDemoViewController.h; sourceTree = "<group>"; };
+		CCB2E5371E8E37AE005674CE /* PYBrowserDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYBrowserDemoViewController.m; sourceTree = "<group>"; };
+		F023A38E1E22AEAC65B103E3 /* Pods-PictureBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictureBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PictureBrowser/Pods-PictureBrowser.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,17 +91,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F985F8D58596676DC5A063F /* libPods-PictureBrowser.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2EFB9E73D7CD66D40ADBF12C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F023A38E1E22AEAC65B103E3 /* Pods-PictureBrowser.debug.xcconfig */,
+				A619C21272BE0425121E1050 /* Pods-PictureBrowser.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		61197DD105890D445E381F50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78B124D52B9A557C21C3BCC6 /* libPods-PictureBrowser.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CC6D3A8E1E49715A0013B3A7 = {
 			isa = PBXGroup;
 			children = (
 				CC6D3A991E49715B0013B3A7 /* PictureBrowser */,
 				CC6D3A981E49715B0013B3A7 /* Products */,
+				2EFB9E73D7CD66D40ADBF12C /* Pods */,
+				61197DD105890D445E381F50 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +136,8 @@
 		CC6D3A991E49715B0013B3A7 /* PictureBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				CCB2E5231E8BB88E005674CE /* SDPhotoBrowser */,
+				CCB2E4F91E8BAAD3005674CE /* STPhotoBrowser */,
 				CC6D3A9D1E49715B0013B3A7 /* AppDelegate.h */,
 				CC6D3A9E1E49715B0013B3A7 /* AppDelegate.m */,
 				CC6D3AA01E49715B0013B3A7 /* ViewController.h */,
@@ -87,6 +155,12 @@
 				CCB2E4E01E7B9A73005674CE /* ThirdViewController.m */,
 				CCB2E4E21E7BC68B005674CE /* FourViewController.h */,
 				CCB2E4E31E7BC68B005674CE /* FourViewController.m */,
+				CCB2E4F21E8B9B34005674CE /* PictureBrowserViewController.h */,
+				CCB2E4F31E8B9B34005674CE /* PictureBrowserViewController.m */,
+				CCB2E5311E8D276E005674CE /* NYTPhotoModel.h */,
+				CCB2E5321E8D276E005674CE /* NYTPhotoModel.m */,
+				CCB2E5361E8E37AE005674CE /* PYBrowserDemoViewController.h */,
+				CCB2E5371E8E37AE005674CE /* PYBrowserDemoViewController.m */,
 			);
 			path = PictureBrowser;
 			sourceTree = "<group>";
@@ -99,6 +173,59 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CCB2E4F91E8BAAD3005674CE /* STPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				CCB2E4FB1E8BAAF8005674CE /* view */,
+				CCB2E4FA1E8BAAEE005674CE /* config */,
+			);
+			name = STPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		CCB2E4FA1E8BAAEE005674CE /* config */ = {
+			isa = PBXGroup;
+			children = (
+				CCB2E5221E8BAEFC005674CE /* STConst.h */,
+				CCB2E4FC1E8BAB21005674CE /* STConfig.h */,
+				CCB2E4FD1E8BAB21005674CE /* STConst.h */,
+				CCB2E4FE1E8BAB21005674CE /* STConst.m */,
+				CCB2E4FF1E8BAB21005674CE /* STUI.h */,
+				CCB2E5001E8BAB21005674CE /* STUI.m */,
+				CCB2E5011E8BAB21005674CE /* UIView+ST.h */,
+				CCB2E5021E8BAB21005674CE /* UIView+ST.m */,
+			);
+			name = config;
+			sourceTree = "<group>";
+		};
+		CCB2E4FB1E8BAAF8005674CE /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CCB2E5061E8BAB32005674CE /* STAlertView.h */,
+				CCB2E5071E8BAB32005674CE /* STAlertView.m */,
+				CCB2E5081E8BAB32005674CE /* STIndicatorView.h */,
+				CCB2E5091E8BAB32005674CE /* STIndicatorView.m */,
+				CCB2E50A1E8BAB32005674CE /* STPhotoBrowserController.h */,
+				CCB2E50B1E8BAB32005674CE /* STPhotoBrowserController.m */,
+				CCB2E50C1E8BAB32005674CE /* STPhotoBrowserView.h */,
+				CCB2E50D1E8BAB32005674CE /* STPhotoBrowserView.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		CCB2E5231E8BB88E005674CE /* SDPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				CCB2E5241E8BB8CE005674CE /* SDWaitingView.m */,
+				CCB2E5251E8BB8CE005674CE /* SDWaitingView.h */,
+				CCB2E5261E8BB8CE005674CE /* SDPhotoBrowserConfig.h */,
+				CCB2E5271E8BB8CE005674CE /* SDPhotoBrowser.m */,
+				CCB2E5281E8BB8CE005674CE /* SDPhotoBrowser.h */,
+				CCB2E5291E8BB8CE005674CE /* SDBrowserImageView.m */,
+				CCB2E52A1E8BB8CE005674CE /* SDBrowserImageView.h */,
+			);
+			name = SDPhotoBrowser;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC6D3AAE1E49715B0013B3A7 /* Build configuration list for PBXNativeTarget "PictureBrowser" */;
 			buildPhases = (
+				F1E577FB0F92959FDF069AD9 /* [CP] Check Pods Manifest.lock */,
 				CC6D3A931E49715B0013B3A7 /* Sources */,
 				CC6D3A941E49715B0013B3A7 /* Frameworks */,
 				CC6D3A951E49715B0013B3A7 /* Resources */,
+				8E4A2F5DC4142171E0BBFA1C /* [CP] Embed Pods Frameworks */,
+				673A6223517F9D4E611ABA52 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -166,18 +296,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		673A6223517F9D4E611ABA52 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PictureBrowser/Pods-PictureBrowser-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E4A2F5DC4142171E0BBFA1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PictureBrowser/Pods-PictureBrowser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1E577FB0F92959FDF069AD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CC6D3A931E49715B0013B3A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCB2E5041E8BAB21005674CE /* STUI.m in Sources */,
+				CCB2E4F41E8B9B34005674CE /* PictureBrowserViewController.m in Sources */,
 				CCB2E4E41E7BC68B005674CE /* FourViewController.m in Sources */,
 				CC6D3AB61E49ADC30013B3A7 /* SecondViewController.m in Sources */,
 				CC6D3AA21E49715B0013B3A7 /* ViewController.m in Sources */,
+				CCB2E5381E8E37AE005674CE /* PYBrowserDemoViewController.m in Sources */,
+				CCB2E5051E8BAB21005674CE /* UIView+ST.m in Sources */,
+				CCB2E52D1E8BB8CE005674CE /* SDBrowserImageView.m in Sources */,
 				CCB2E4E11E7B9A73005674CE /* ThirdViewController.m in Sources */,
 				CC6D3A9F1E49715B0013B3A7 /* AppDelegate.m in Sources */,
+				CCB2E5331E8D276E005674CE /* NYTPhotoModel.m in Sources */,
+				CCB2E5111E8BAB32005674CE /* STPhotoBrowserView.m in Sources */,
+				CCB2E5031E8BAB21005674CE /* STConst.m in Sources */,
+				CCB2E50F1E8BAB32005674CE /* STIndicatorView.m in Sources */,
 				CC6D3AB31E499D6D0013B3A7 /* ScanImage.m in Sources */,
+				CCB2E50E1E8BAB32005674CE /* STAlertView.m in Sources */,
+				CCB2E5101E8BAB32005674CE /* STPhotoBrowserController.m in Sources */,
 				CC6D3A9C1E49715B0013B3A7 /* main.m in Sources */,
+				CCB2E52C1E8BB8CE005674CE /* SDPhotoBrowser.m in Sources */,
+				CCB2E52B1E8BB8CE005674CE /* SDWaitingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +484,7 @@
 		};
 		CC6D3AAF1E49715B0013B3A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F023A38E1E22AEAC65B103E3 /* Pods-PictureBrowser.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -307,6 +499,7 @@
 		};
 		CC6D3AB01E49715B0013B3A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A619C21272BE0425121E1050 /* Pods-PictureBrowser.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";

@@ -7,6 +7,7 @@
 //
 
 #import "FourViewController.h"
+#import "PictureBrowserViewController.h"
 
 @interface FourViewController ()<UIScrollViewDelegate>
 
@@ -36,8 +37,19 @@
     [_minImageView addGestureRecognizer:tapGesture];
     
     _oldFrame = _minImageView.frame;
+    
+    
+    UIButton *nextPage = [[UIButton alloc] initWithFrame:CGRectMake(100, 400, 60, 40)];
+    [self.view addSubview:nextPage];
+    [nextPage setBackgroundColor:[UIColor redColor]];
+    [nextPage setTitle:@"next" forState:UIControlStateNormal];
+    [nextPage addTarget:self action:@selector(goToNextPage) forControlEvents:UIControlEventTouchUpInside];
 }
 
+- (void)goToNextPage {
+    PictureBrowserViewController *nextVC = [[PictureBrowserViewController alloc] init];
+    [self.navigationController pushViewController:nextVC animated:YES];
+}
 
 // 大图视图
 - (UIImageView *)createBigImageView:(CGRect)frame {
